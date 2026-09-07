@@ -4,7 +4,7 @@ Instructions to load the ASRO code:
 
 * Upload "HEA-alloys.zip" onto Blythe via the command:
 ```bash
-  rsync -avzP HEA-alloys.zip esrmmf@blythe.scrtp.warwick.ac.uk:
+  rsync -avzP HEA-alloys.zip USERNAME@blythe.scrtp.warwick.ac.uk:
 ```
 * Unzip `HEA-alloys.zip`
 * Move `asro_part1.tar.gz` and `asro_part2.tar.gz` into their own directories named `asro_part1` and `asro_part2` respectively.
