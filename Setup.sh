@@ -3,6 +3,7 @@ set -euo pipefail
 
 # --- Unzip ---
 unzip HEA-alloys.zip
+cd HEA-alloys
 
 # --- Move tarballs into their own directories ---
 mkdir -p asro_part1 asro_part2
